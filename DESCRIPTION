@@ -1,0 +1,16 @@
+Package: diceR
+Title: Roll the Dice in R
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Paul",
+           family = "Egeler",
+           role = c("aut", "cre"),
+           email = "paul.egeler@spectrumhealth.org")
+Description: This is a demo package that rolls dice.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://github.com/pegeler/diceR
+BugReports: https://github.com/pegeler/diceR/issues
