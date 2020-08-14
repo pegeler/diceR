@@ -16,12 +16,6 @@ This is an unordered list of dice shapes:
   - tetrahedra
   - icoshedra
 
-This is an ordered list of my favorite foods.
-
-1.  Cheese
-2.  Chips
-3.  Cookies
-
 ## Installation
 
 Use the `remotes` package to install from GitHub.
@@ -42,9 +36,9 @@ library(diceR)
 
 # Roll two dice both with six faces
 2 %d% 6
-#> You rolled... 6 : 2 4
+#> You rolled... 7 : 2 5
 
 # Another way to do the same thing
 dice("2d6")
-#> You rolled... 5 : 1 4
+#> You rolled... 6 : 3 3
 ```
