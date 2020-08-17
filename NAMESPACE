@@ -3,3 +3,6 @@
 S3method(print,dice)
 export("%d%")
 export(dice)
+export(fast_roll)
+importFrom(Rcpp,sourceCpp)
+useDynLib(diceR)
