@@ -26,6 +26,6 @@ dice <- function(r) {
 
 #' @export
 print.dice <- function(x, ...) {
-  cat("You rolled... ")
-  cat(sum(x), ":", x)
+  cat("You rolled...", paste0(sum(x), ":"), x, "\n")
+  invisible(x)
 }
