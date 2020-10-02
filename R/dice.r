@@ -1,8 +1,15 @@
+#' @importFrom  Rcpp sourceCpp
+#' @useDynLib diceR
+NULL
+
 #' Roll the dice
 #'
 #' These functions let us roll the dice
 #'
-#' This is a description of how dice are made...
+#' The `fast_roll` function is an example
+#' [Rcpp](https://cran.r-project.org/package=Rcpp) function. See more in the
+#' _src/_ folder of the package source.
+#'
 #' @param r A character vector in the format "ndm" where _n_ is the number of
 #'   dice and _m_ is the number of faces.
 #' @param n An integer representing the number of dice.
